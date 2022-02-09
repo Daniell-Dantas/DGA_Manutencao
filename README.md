@@ -11,6 +11,7 @@ Este software, nomeado de DGA++, foi desenvolvido por mim como projeto final de 
 O software foi concebido baseado em conceitos de ciência e análise de dados, no que tange à utilização e oportunidade de registro e utilização de informações úteis para auxiliar tomadores de decisão com dados.
 Para a execução, utilizou-se a framework Electron, para desenvolvimento desktop, com as linguagens/tecnologias: Java Script, HTML, CSS, NodeJS, SQL.
 
+OBS: Algumas informações sensíveis foram omitidas nas imagens utilizando barras.
 
 _Para melhore entender o software, é necessário entender seu contexto de funcionamento_
 
@@ -39,34 +40,35 @@ As principais melhorias e features são:
 #### Análise por 3 métodos clássicos
 O software realiza os cálculos de 3 métodos clássicos na teoria de manutenção, que são: Rogers, IEC e Duval.
 
-![image](https://user-images.githubusercontent.com/67600860/153219180-0e3888b3-dca6-4ee9-8403-ff66047afd6e.png)
+![image](https://user-images.githubusercontent.com/67600860/153226269-49b4380c-cbfe-4fd6-8db9-29533eca6b5b.png)
 
 #### Gráficos de tendência
 Com os gráficos de tendência, os engenheiros conseguem entender quais equipamentos são mais prováveis de apresentar falhas.
 
-![image](https://user-images.githubusercontent.com/67600860/153219219-f588d08b-b749-4c60-9a5c-fc9898eb84c8.png)
+![image](https://user-images.githubusercontent.com/67600860/153229413-b60856fe-cdc0-46c8-ba74-db6f49ed464a.png)
+
 
 #### Mapa visual - Dashboard
 1.Relação prioridade do equipamento por tipo de falha. Para os engenheiros decidirem em qual transformador atuar primeiro.
 
-![image](https://user-images.githubusercontent.com/67600860/153219235-4543ab8d-f299-4dc5-8a75-b26a79b54e6e.png)
+![image](https://user-images.githubusercontent.com/67600860/153227349-f9043f9d-628c-4ed8-96c7-de8fd7929d3c.png)
 
 2.Gráfico comparando a quantidade de cada um dos principais gases entre os grupos de transformadores, para identificar se existe algum que está produzindo muito mais gases que os outros.
 
-![image](https://user-images.githubusercontent.com/67600860/153219249-8bdb4ace-9c4f-474b-aca7-dbf0af98f747.png)
+![image](https://user-images.githubusercontent.com/67600860/153229812-9ede1821-11e4-41ce-a5ad-134f84b67d0d.png)
 
 3.Gráfico que relaciona os tipos de falhas dos equipamentos no tempo, para identificação de padrões.
 
-![image](https://user-images.githubusercontent.com/67600860/153219263-7b8ab34b-ecf7-49ee-8f27-1b3359cc688f.png)
+![image](https://user-images.githubusercontent.com/67600860/153227828-22060ebe-1a58-449a-844c-4bcf8b5fe5ea.png)
 
 4.Gráfico que correlaciona o tipo de falha com a quantidade registrada dos gases, para identificar padrões e outliers.
 
-![image](https://user-images.githubusercontent.com/67600860/153219279-f9b54e23-ac0a-472e-a30b-005905fc9eb0.png)
+![image](https://user-images.githubusercontent.com/67600860/153228118-530b86c1-d5f9-4869-96dc-fb6b7aec6173.png)
 
 #### Relatório PDF
 Relatório PDF para armazenamento de informações bem como para suprir demandas de registro empresariais.
 
-![image](https://user-images.githubusercontent.com/67600860/153219295-87fcf516-0ba6-4c07-a50f-0097f27714db.png)
+![image](https://user-images.githubusercontent.com/67600860/153228634-2b587768-b888-48f2-8369-5532f50fcd8c.png)
 
 ## Resultados alcançados
 
