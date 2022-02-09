@@ -8,31 +8,31 @@ Foto: LMTE/Divulgação
 ## Sobre o que é este software?
 Este software, nomeado de DGA++, foi desenvolvido por mim como projeto final de estágio do curso de Engenharia Elétrica, na empresa [Albras (Grupo Hydro)](https://www.hydro.com/pt-BR/sobre-a-hydro/a-hydro-no-mundo/north-america/brasil/barcarena/albras/), no ano de 2020 e recebeu segundo lugar dentre os melhores projetos.
 
-O software foi concebido baseado em conceitos de ciência e análise de dados, no que tange à utilização e oportunidade de de registro e utilização de informações úteis para uxiliar tomadores de decisão com dados.
+O software foi concebido baseado em conceitos de ciência e análise de dados, no que tange à utilização e oportunidade de registro e utilização de informações úteis para auxiliar tomadores de decisão com dados.
 Para a execução, utilizou-se a framework Electron, para desenvolvimento desktop, com as linguagens/tecnologias: Java Script, HTML, CSS, NodeJS, SQL.
 
 
 _Para melhore entender o software, é necessário entender seu contexto de funcionamento_
 
 ## Como funciona a manutenção de uma subestação?
-O bom funcionamento de um transformador é de grande importância para a integridade de um sistema de energia elétrica, já que este é peça fundamental no tratamento e transmissão da eletricidade e seu estado operacional influencia diretamente na estabilidade do sistema. Assim como outros equipamentos, durante sua operação o transformador é submetido a uma variedade de problemas térmicos e elétricos que pode levar a falhas. Tais falhas geram uma série de gases que são retidos pelo óleo isolante. A concentração e relativa proporção destes gases no óleo é usada para fazer a detecção e eliminação destas falha.
+O bom funcionamento de um transformador é de grande importância para a integridade de um sistema de energia elétrica, já que este é peça fundamental no tratamento e transmissão da eletricidade e seu estado operacional influencia diretamente na estabilidade do sistema. Assim como outros equipamentos, durante sua operação o transformador é submetido a uma variedade de problemas térmicos e elétricos que pode levar a falhas. Tais falhas geram uma série de gases que são retidos pelo óleo isolante. A concentração e relativa proporção destes gases no óleo é usada para fazer a detecção e eliminação destas falhas.
 
-A função dos engenheiros tomadores de decisão é realizar os testes nas amostras de óleo, anlisar a quantidade de gases e decidir qual açaõ realizar naquele equipamento a aprtir daí.
+A função dos engenheiros tomadores de decisão é realizar os testes nas amostras de óleo, analisar a quantidade de gases e decidir qual ação realizar naquele equipamento a partir daí.
 
 ### Como é feito hoje em dia
 - Coleta-se óleo e envia-se ao laboratório;
-- O laboratório retorna um docuemnto impresso com a quantidade de cada gás;
-- O engenehiro lê documento a docuemnto utilizando métodos de cálculo e experiência para interpretar os valores.
+- O laboratório retorna um documento impresso com a quantidade de cada gás;
+- O engenheiro lê documento a documento utilizando métodos de cálculo e experiência para interpretar os valores.
 
 Isso pode acarretar em alguns problemas, como:
-- Não há visualizaçaõ da tendência dos equipamentos nem do panorama geral da subestaçõ;
+- Não há visualização da tendência dos equipamentos nem do panorama geral da subestação;
 - Análise limitada, muitas vezes, a somente 1 método;
-- Método empírico de interpretaçaõ.
+- Método empírico de interpretação.
 
 ## Solução: Software DGA++
 ![image](https://user-images.githubusercontent.com/67600860/153218899-8ea041b0-66ce-4c5e-beda-c54dd13ab240.png)
 
-O software foi feito pensand nas dores e nos requisitos do grupo de enegnheiros responsáveis pela manutenção. No primeiros mês foram feitas reuniões para entender o problema e decidir que métodos e tecnologias seriam utilizadas. Com o DGA++, os engenheiros tem uma ferramenta que os permite ter análises mais completas, rápidas e gerais sobre o estado operativo de um equipamento e de todo parque da subestação.
+O software foi feito pensado nas dores e nos requisitos do grupo de engenheiros responsáveis pela manutenção. No primeiro mês foram feitas reuniões para entender o problema e decidir que métodos e tecnologias seriam utilizados. Com o DGA++, os engenheiros tem uma ferramenta que os permite ter análises mais completas, rápidas e gerais sobre o estado operativo de um equipamento e de todo parque da subestação.
 
 As principais melhorias e features são:
 
@@ -47,7 +47,7 @@ Com os gráficos de tendência, os engenheiros conseguem entender quais equipame
 ![image](https://user-images.githubusercontent.com/67600860/153219219-f588d08b-b749-4c60-9a5c-fc9898eb84c8.png)
 
 #### Mapa visual - Dashboard
-1.Relação prioridade do equipamento por tipo de falha. Para os engenehiros decidirem em qual transformador atuar primeiro.
+1.Relação prioridade do equipamento por tipo de falha. Para os engenheiros decidirem em qual transformador atuar primeiro.
 
 ![image](https://user-images.githubusercontent.com/67600860/153219235-4543ab8d-f299-4dc5-8a75-b26a79b54e6e.png)
 
@@ -55,7 +55,7 @@ Com os gráficos de tendência, os engenheiros conseguem entender quais equipame
 
 ![image](https://user-images.githubusercontent.com/67600860/153219249-8bdb4ace-9c4f-474b-aca7-dbf0af98f747.png)
 
-3.Gráfico que relaciona os tipos de falhas dos equioamentos no tempo, para identificaçaõ de padrões.
+3.Gráfico que relaciona os tipos de falhas dos equipamentos no tempo, para identificação de padrões.
 
 ![image](https://user-images.githubusercontent.com/67600860/153219263-7b8ab34b-ecf7-49ee-8f27-1b3359cc688f.png)
 
@@ -70,12 +70,15 @@ Relatório PDF para armazenamento de informações bem como para suprir demandas
 
 ## Resultados alcançados
 
-Após a implementação do software, os engenehiros perceberam aumento de:
+Após a implementação do software, os engenheiros perceberam aumento de:
 
--Confiabilidade no processo de manutenção dos equipamentos;
--Númerod e informações úteis sobre os equipamentos;
--Rapidez no processo de análise e consequente tomada de decisão.
+* Confiabilidade no processo de manutenção dos equipamentos;
+* Número de informações úteis sobre os equipamentos;
+* Rapidez no processo de análise e consequente tomada de decisão.
 
 A seguir, depoimento de Afonso Bitencourt, Gerente de Área de Energia & Utilidades na Albras:
+
+
+https://user-images.githubusercontent.com/67600860/153223809-54735157-6a90-463a-ab84-3a774682a972.mp4
 
 
