@@ -55,7 +55,7 @@ Com os gráficos de tendência, os engenheiros conseguem entender quais equipame
 
 2.Gráfico comparando a quantidade de cada um dos principais gases entre os grupos de transformadores, para identificar se existe algum que está produzindo muito mais gases que os outros.
 
-![image](https://user-images.githubusercontent.com/67600860/153229812-9ede1821-11e4-41ce-a5ad-134f84b67d0d.png)
+![image](https://user-images.githubusercontent.com/67600860/159984090-0fc60b35-fd24-4276-bdab-89c4fdac6e99.png)
 
 3.Gráfico que relaciona os tipos de falhas dos equipamentos no tempo, para identificação de padrões.
 
